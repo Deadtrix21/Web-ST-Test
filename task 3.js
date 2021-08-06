@@ -16,7 +16,7 @@ function palindrome() {
         }
         if (revesedword === word)
         {
-            edit.style.border = "solid 5px green"
+            if(word != ''){edit.style.border = "solid 5px green"} 
         }
         else
         {
